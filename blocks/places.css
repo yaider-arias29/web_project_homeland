@@ -1,0 +1,181 @@
+.places{
+    padding-left: 80px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.place__card{
+    display: flex;
+    flex-direction: row;
+}
+
+.place__content-text{
+    padding-right: 180px;
+    padding-top: 200px;
+}
+
+.place__title{
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 76px;
+    text-align: left;
+    color: #fff;
+    width: 460px;
+}
+
+.place__button{
+    width: 355px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    background-color: #0278FE;
+}
+
+.place__button:hover{
+    background-color:#0063D2;
+}
+
+.place__image{
+    width: 460px;
+    height: 460px;
+    padding-bottom: 80px;
+}
+
+
+.place__url-heading{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 0.5px;
+    letter-spacing: 0.5em;
+    text-align: left;
+    color: #aaa;
+    width: 58px;
+    box-sizing: border-box;
+}
+
+.place__artist{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #fff;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
+.place__paragraph{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.34px;
+    text-align: left;
+    color: #fff;
+    width: 484px;
+}
+
+@media screen and (max-width: 768px){
+    .places{
+        padding-left: 1%
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places{
+        padding-left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .place__card{
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__card{
+        width: 320px;
+        flex-direction: column;
+    }    
+}
+
+@media screen and (max-width: 768px){
+    .place__content-text{
+    padding-top: 100px;
+    padding-left: 1%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .place__content-text{
+        width: 288px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__content-image{
+        padding-right: 1%;
+        width: 340px;
+        padding-left: 1%;
+    }
+}
+    
+@media screen and (max-width: 768px) {
+    .place__image{
+        width: 300px;
+        height: 300px;
+        padding-left: 1%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__image{
+        width: 290px;
+        margin-left: 0px;
+        padding-bottom: 1px;
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    .place__button{
+      width: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title{
+        font-size: 42px;
+        padding-left: 1%;
+        line-height: 35px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .place__title{
+        font-size: 32px;
+        width: 288px;
+        line-height: 35px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph{
+        font-size: 16px;
+        padding-left: 1%;
+        width: 352px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph{
+        font-size: 16px;
+        width: 288px;
+    }
+    
+}
