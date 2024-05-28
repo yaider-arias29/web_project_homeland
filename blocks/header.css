@@ -37,6 +37,8 @@
     line-height: 36px;
     text-align: center;
     color:#FFFFFF;
+    width: 720px;
+    margin: auto;
 }
 
 .lead__image {
@@ -84,6 +86,7 @@
     .lead__subtitle{
         font-size: 16px;
         line-height: 20px;
+        width: 288px;
     }
     
 }

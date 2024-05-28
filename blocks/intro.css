@@ -38,10 +38,9 @@
     text-align: right;
     color: #fff;
     padding-right: 370px;
-    position: absolute;
+    position: static;
     width: 720px;
     height: 34px;
-    top: 1607px;
 }
 
 .intro__text-content{
