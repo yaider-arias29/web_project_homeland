@@ -1,4 +1,4 @@
-.places{
+.place{
     padding-left: 80px;
     padding-top: 30px;
     position: relative;
@@ -77,7 +77,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .places{
+    .place{
         padding-left: 0px;
     }
 }
