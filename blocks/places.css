@@ -30,6 +30,8 @@
     gap: 10px;
     border-radius: 4px 0px 0px 0px;
     background-color: #0278FE;
+    cursor: pointer;
+    color: #fff;
 }
 
 .place__button:hover{
