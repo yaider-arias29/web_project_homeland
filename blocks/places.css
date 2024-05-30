@@ -10,8 +10,13 @@
 }
 
 .place__content-text{
-    padding-right: 180px;
-    padding-top: 200px;
+    padding-right: 10px;
+    padding-top: 140px;
+    margin: auto;
+}
+
+.place__content-image{
+    width: 460px;
 }
 
 .place__title{
@@ -32,6 +37,7 @@
     background-color: #0278FE;
     cursor: pointer;
     color: #fff;
+    text-align: center;
 }
 
 .place__button:hover{
